@@ -1,0 +1,29 @@
+header {
+
+    width: 100%;
+    height: rem(100);
+    background: $cream;
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+
+    .morunner-top-logo {
+
+        position: absolute;
+        top: rem(10);
+        left: 0;
+        right: 0;
+        margin: auto;
+
+    }
+
+    .amtrack-top-logo {
+
+        @include breakpoint(small) {
+            max-width: rem(80);
+        }
+
+    }
+
+}

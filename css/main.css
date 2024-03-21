@@ -1,0 +1,541 @@
+@import 'https://use.typekit.net/ger5idp.css';
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1260px;
+  }
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "railroad-gothic-atf", sans-serif;
+  font-weight: 400;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-family: "railroad-gothic-atf", sans-serif;
+  font-weight: 400;
+}
+
+p, li, a, span {
+  font-family: "freight-text-pro", serif;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+}
+
+h1 {
+  font-size: 4.5rem;
+  line-height: 1.2;
+}
+
+.mo-runner-post h4 {
+  font-size: 1.25rem;
+  line-height: 1.2;
+  margin-top: 1.375rem;
+  margin-bottom: 1rem;
+  font-family: "interstate", sans-serif !important;
+  font-weight: 700;
+}
+.mo-runner-post p {
+  line-height: 1.5rem;
+}
+.mo-runner-post a {
+  color: #00476B;
+  text-decoration: none;
+  font-weight: 700;
+}
+.mo-runner-post a:hover {
+  color: #1B95D2;
+}
+
+body.contact h3 {
+  font-family: "interstate", sans-serif !important;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+body {
+  background: #F9F9F4;
+}
+
+.wp-block-button__link, .wpforms-submit {
+  font-size: 1.75rem !important;
+  line-height: 1.2;
+  font-family: "railroad-gothic-atf", sans-serif !important;
+  border-radius: 0;
+  padding: 0.625rem 2rem !important;
+  text-transform: uppercase !important;
+}
+
+.wpforms-submit {
+  height: auto !important;
+  background: #1B95D2 !important;
+}
+.wpforms-submit:after {
+  content: "\f0da";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 1.75rem;
+  margin-left: 0.625rem;
+}
+
+.wp-block-button:not(.is-style-outline) .wp-block-button__link {
+  border: 0.125rem solid;
+}
+.wp-block-button:not(.is-style-outline) .wp-block-button__link.has-blue-d-background-color {
+  border-color: #00476B;
+}
+.wp-block-button:not(.is-style-outline) .wp-block-button__link.has-blue-l-background-color {
+  border-color: #1B95D2;
+}
+.wp-block-button:not(.is-style-outline) .wp-block-button__link.has-white-background-color {
+  border-color: #fff;
+}
+.wp-block-button:not(.is-style-outline) .wp-block-button__link.has-black-background-color {
+  border-color: #000;
+}
+.wp-block-button:not(.is-style-outline) .wp-block-button__link.has-black-l-background-color {
+  border-color: #302b2c;
+}
+.wp-block-button:not(.is-style-outline) .wp-block-button__link.has-cream-background-color {
+  border-color: #F9F9F4;
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.mor-simple-btn {
+  font-family: "railroad-gothic-atf", sans-serif;
+  letter-spacing: 0.25rem;
+  font-weight: 400;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #00476B;
+}
+.mor-simple-btn:hover {
+  color: #1B95D2;
+  text-decoration: none;
+}
+
+.is-style-drop-shadow {
+  box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+header {
+  width: 100%;
+  height: 6.25rem;
+  background: #F9F9F4;
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+header .morunner-top-logo {
+  position: absolute;
+  top: 0.625rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+@media (max-width: 600px) {
+  header .amtrack-top-logo {
+    max-width: 5rem;
+  }
+}
+
+.top-menu {
+  margin-bottom: 0;
+  display: flex;
+  gap: 40px;
+  justify-content: flex-end;
+  padding-left: 0 !important;
+}
+@media (max-width: 1000px) {
+  .top-menu {
+    position: absolute;
+    background: #00476B;
+    left: -62.5rem;
+    top: 6.25rem;
+    flex-direction: column;
+    padding: 1.25rem;
+    min-width: 42%;
+    transition: left 0.5s ease-in-out;
+    gap: 0;
+  }
+  .top-menu.active {
+    left: 0;
+  }
+}
+.top-menu li {
+  list-style-type: none;
+  margin-bottom: 0.625rem;
+}
+@media (max-width: 1000px) {
+  .top-menu li {
+    margin-bottom: 1.25rem;
+    margin-left: 1.25rem;
+  }
+}
+.top-menu li a {
+  font-family: "railroad-gothic-atf", sans-serif;
+  font-weight: 400;
+  color: #000;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+@media (max-width: 1000px) {
+  .top-menu li a {
+    color: #fff;
+  }
+}
+.top-menu li.menu-item-has-children {
+  position: relative;
+  padding-right: 1.875rem;
+}
+.top-menu li.menu-item-has-children:after {
+  content: "\f107";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: #000;
+  margin-left: 0.625rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: transform 0.5s;
+}
+@media (max-width: 1000px) {
+  .top-menu li.menu-item-has-children:after {
+    color: #fff;
+  }
+}
+.top-menu li.menu-item-has-children:hover:after {
+  transform: rotate(180deg);
+}
+.top-menu li.menu-item-has-children:hover .sub-menu {
+  height: auto;
+  visibility: visible;
+  left: 0;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out, left 0.5s ease-in-out;
+}
+.top-menu li .sub-menu {
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  left: -0.625rem;
+  transition: opacity 0.5s ease-in-out, left 0.5s ease-in-out;
+  background: #F9F9F4;
+  padding: 1.25rem !important;
+  border-top: 5px solid #00476B;
+  opacity: 0;
+}
+@media (max-width: 1000px) {
+  .top-menu li .sub-menu {
+    position: relative;
+    left: 0;
+    height: auto;
+    visibility: visible;
+    opacity: 1;
+    background: #00476B;
+  }
+}
+
+.morunner-mobile-trigger {
+  display: none;
+  cursor: pointer;
+}
+.morunner-mobile-trigger .fa-solid {
+  font-size: 2.5rem;
+  color: #00476B;
+}
+@media (max-width: 1000px) {
+  .morunner-mobile-trigger {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1.25rem;
+    font-size: 1.5rem;
+    color: #000;
+    background: #F9F9F4;
+    z-index: 1000;
+  }
+}
+
+.masthead {
+  width: 100%;
+  min-height: 29.6875rem;
+  height: auto;
+  position: relative;
+}
+.masthead__inner {
+  width: 100%;
+  height: 100%;
+}
+.masthead__overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: rgba(0, 71, 107, 0.4);
+}
+.masthead__background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.masthead__background img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.masthead__content {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+}
+.masthead__title {
+  color: #fff;
+}
+.masthead__position--top img {
+  -o-object-position: top;
+     object-position: top;
+}
+.masthead__position--center img {
+  -o-object-position: center;
+     object-position: center;
+}
+.masthead__position--bottom img {
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+
+.mo-runner-main-container {
+  margin-top: 3.75rem;
+  margin-bottom: 3.75rem;
+}
+
+.has-blue-d-background-color h2 {
+  color: #fff;
+}
+.has-blue-d-background-color input {
+  background-color: #00476B !important;
+  border-top: 0 !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-color: #1B95D2 !important;
+  color: #fff !important;
+}
+.has-blue-d-background-color input::-webkit-input-placeholder {
+  color: #fff !important;
+}
+.has-blue-d-background-color textarea {
+  background-color: #00476B !important;
+  border-color: #1B95D2 !important;
+  color: #fff !important;
+}
+.has-blue-d-background-color textarea::-webkit-input-placeholder {
+  color: #fff !important;
+}
+
+input::-webkit-input-placeholder {
+  color: #fff !important;
+}
+
+h5.phone-number {
+  font-size: 1.75rem !important;
+  line-height: 1.75rem;
+  font-family: "railroad-gothic-atf", sans-serif;
+}
+h5.phone-number:before {
+  content: "\f095";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 1.75rem;
+  margin-right: 1.5625rem;
+}
+h5.phone-number span {
+  font-size: 1.25rem;
+  font-family: "railroad-gothic-atf", sans-serif !important;
+  margin-left: 0.625rem;
+}
+h5.phone-number a {
+  color: #000 !important;
+  text-decoration: none !important;
+}
+h5.phone-number a:hover {
+  text-decoration: underline !important;
+}
+
+h5.form-location {
+  font-size: 1.75rem !important;
+  line-height: 1.75rem;
+  font-family: "railroad-gothic-atf", sans-serif;
+  display: flex;
+}
+h5.form-location:before {
+  content: "\f3c5";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 1.75rem;
+  margin-right: 2rem;
+}
+h5.form-location a {
+  color: #000 !important;
+  text-decoration: none !important;
+}
+h5.form-location a:hover {
+  text-decoration: underline !important;
+}
+
+#wpforms-90-field_1-container {
+  width: 48%;
+  display: inline-block;
+  margin-right: 4%;
+}
+
+#wpforms-90-field_3-container {
+  width: 48%;
+  display: inline-block;
+}
+
+.splide__pagination li .splide__pagination__page.is-active {
+  background-color: #00476B;
+}
+
+.mor-slider__wrapper .splide__slide {
+  padding: 0 0.625rem;
+}
+
+.wp-block-embed-youtube .wp-block-embed__wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.wp-block-embed-youtube .wp-block-embed__wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.mor-fairfinder-bottom {
+  width: 100%;
+  height: 34.375rem;
+  position: relative;
+}
+@media (max-width: 600px) {
+  .mor-fairfinder-bottom {
+    height: auto;
+    padding: 1.875rem 0;
+  }
+}
+.mor-fairfinder-bottom__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.mor-fairfinder-bottom__background img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.mor-fairfinder-bottom__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 71, 107, 0.7);
+  z-index: 2;
+}
+.mor-fairfinder-bottom__content {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.mor-fairfinder-bottom__content h2 {
+  font-size: 3.75rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1.25rem;
+  width: 100%;
+  max-width: 37.5rem;
+}
+.mor-fairfinder-bottom__content p {
+  font-size: 1.5rem;
+  line-height: 1.625rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  width: 100%;
+  max-width: 34.375rem;
+}
+.mor-fairfinder-bottom .mor-fairfinder {
+  width: 100%;
+  max-width: 78.75rem;
+}
+
+footer {
+  background: #302b2c;
+  min-height: 13.25rem;
+  justify-content: center;
+}
+footer .mo-runner-footer__logos {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+footer .footer-menu {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto auto;
+  gap: 10px;
+}
+@media (max-width: 1000px) {
+  footer .footer-menu {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+  }
+}
+@media (max-width: 600px) {
+  footer .footer-menu {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto auto;
+  }
+}
+footer .footer-menu li {
+  list-style-type: none;
+  text-align: center;
+}
+footer .footer-menu li a {
+  font-family: "railroad-gothic-atf", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */

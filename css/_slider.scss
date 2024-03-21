@@ -1,0 +1,25 @@
+.splide {
+
+   &__pagination {
+
+        li {
+
+            .splide__pagination__page {
+
+                &.is-active {
+                    background-color: $blue-d;
+                }
+
+            }
+
+        }
+
+   } 
+
+}
+
+.mor-slider__wrapper .splide__slide {
+
+    padding: 0 rem(10);
+
+}

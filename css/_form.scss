@@ -1,0 +1,120 @@
+.has-blue-d-background-color {
+
+    h2 {
+
+        color: $white;
+
+    }
+
+    input {
+
+        background-color: $blue-d !important;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 0 !important;
+        border-color: $blue-l !important;
+        color: $white !important;
+        
+        &::-webkit-input-placeholder {
+            color: $white !important;
+        }
+        
+    }
+
+    textarea {
+
+        background-color: $blue-d !important;
+        border-color: $blue-l !important;
+        color: $white !important;
+        
+        &::-webkit-input-placeholder {
+            color: $white !important;
+        }
+        
+    }
+
+}
+
+input::-webkit-input-placeholder {
+
+        color: $white !important;
+
+}
+
+h5.phone-number {
+
+    font-size: rem(28) !important;
+    line-height: rem(28);
+    font-family: 'railroad-gothic-atf', sans-serif;
+    &:before {
+        content: '\f095';
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        font-size: rem(28);
+        margin-right: rem(25);
+
+    }
+
+    span {
+
+        font-size: rem(20);
+        font-family: 'railroad-gothic-atf', sans-serif !important;
+        margin-left: rem(10);
+
+    }
+
+    a {
+
+        color: $black !important;
+        text-decoration: none !important;
+
+        &:hover {
+            text-decoration: underline !important;
+        }
+
+    }
+
+}
+
+h5.form-location {
+
+    font-size: rem(28) !important;
+    line-height: rem(28);
+    font-family: 'railroad-gothic-atf', sans-serif;
+    display: flex;
+    &:before {
+        content: '\f3c5';
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        font-size: rem(28);
+        margin-right: rem(32);
+
+    }
+
+    a {
+
+        color: $black !important;
+        text-decoration: none !important;
+
+        &:hover {
+            text-decoration: underline !important;
+        }
+
+    }
+
+}
+
+#wpforms-90-field_1-container {
+
+    width: 48%;
+    display: inline-block;
+    margin-right: 4%;
+
+}
+
+#wpforms-90-field_3-container {
+
+    width: 48%;
+    display: inline-block;
+
+}

@@ -1,0 +1,80 @@
+.wp-block-button__link, .wpforms-submit {
+    font-size: rem(28) !important;
+    line-height: 1.2;
+    font-family: 'railroad-gothic-atf', sans-serif !important;
+    border-radius: 0;
+    padding: rem(10) rem(32) !important;
+    text-transform: uppercase !important;
+}
+
+.wpforms-submit {
+
+    height: auto !important;
+    background: $blue-l !important;
+    &:after {
+
+        content: '\f0da';
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        font-size: rem(28);
+        margin-left: rem(10);
+
+    }
+
+}
+
+.wp-block-button:not(.is-style-outline) .wp-block-button__link {
+    border: rem(2) solid;
+
+    &.has-blue-d-background-color {
+        border-color: $blue-d;
+    }
+
+    &.has-blue-l-background-color {
+        border-color: $blue-l;
+    }
+
+    &.has-white-background-color {
+        border-color: $white;
+    }
+
+    &.has-black-background-color {
+        border-color: $black;
+    }
+
+    &.has-black-l-background-color {
+        border-color: $black-l;
+    }
+
+    &.has-cream-background-color {
+        border-color: $cream;
+    }
+}
+
+.wp-block-button.is-style-outline {
+
+    .wp-block-button__link {
+
+        background-color: rgba(0,0,0,0) !important;
+
+    }
+
+}
+
+.mor-simple-btn {
+
+    font-family: 'railroad-gothic-atf', sans-serif;
+    letter-spacing: rem(4);
+    font-weight: 400;
+    font-size: rem(16);
+    text-decoration: none;
+    color: $blue-d;
+
+    &:hover {
+
+        color: $blue-l;
+        text-decoration: none;
+
+    }
+
+}

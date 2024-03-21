@@ -1,0 +1,16 @@
+@mixin breakpoint($point) {
+    @if $point == small {
+      @media (max-width: 600px) { @content; }
+    }
+    @else if $point == medium {
+      @media (max-width: 1000px) { @content; }
+    }
+    @else if $point == large {
+      @media (max-width: 1200px) { @content; }
+    }
+  }
+
+ @function rem($value) {
+    $remValue: ($value / 16) + rem;
+    @return $remValue;
+}

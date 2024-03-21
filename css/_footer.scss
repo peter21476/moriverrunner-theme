@@ -1,0 +1,60 @@
+footer {
+
+    background: $black-l;
+    min-height: rem(212);
+    justify-content: center;
+
+    .mo-runner-footer {
+
+        &__logos {
+
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            justify-content: flex-start;
+            width: 100%;
+
+        }
+
+    }
+
+    .footer-menu {
+
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: auto auto;
+        gap: 10px;
+
+        @include breakpoint(medium) {
+
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto auto;
+
+        }
+
+        @include breakpoint(small) {
+
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: auto auto;
+
+        }
+
+        li {
+
+            list-style-type: none;
+            text-align: center;
+
+            a {
+
+                font-family: 'railroad-gothic-atf', sans-serif;
+                font-weight: 400;
+                color: $white;
+                font-size: rem(24);
+                text-decoration: none;
+
+            }
+
+        }
+
+    }
+}    

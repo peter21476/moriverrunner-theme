@@ -1,0 +1,124 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+		"layout": {
+            "contentSize": "840px",
+            "wideSize": "1260px"
+        },
+        "blocks":{
+            "core/button":{
+				"color": {
+					"palette": [
+						{
+							"slug": "black",
+							"color": "#000000",
+							"name": "Black"
+						},
+						{
+							"slug": "white",
+							"color": "#ffffff",
+							"name": "White"
+						},
+						{
+							"slug": "cream",
+							"color": "#F9F9F4",
+							"name": "Cream"
+						},
+						{
+							"slug": "blue-l",
+							"color": "#1B95D2",
+							"name": "Blue Light"
+						}
+                        ,
+						{
+							"slug": "blue-d",
+							"color": "#00476B",
+							"name": "Blue Dark"
+						}
+					]
+				}
+            },
+			"create-block/mor-background-block": {
+				"spacing": {
+					"margin": true,
+					"padding": true
+				}
+			}
+        },
+		"color": {
+			"palette": [
+				{
+					"slug": "black",
+					"color": "#000000",
+					"name": "Black"
+				},
+				{
+					"slug": "white",
+					"color": "#ffffff",
+					"name": "White"
+				},
+				{
+					"slug": "cream",
+					"color": "#F9F9F4",
+					"name": "Cream"
+				},
+				{
+					"slug": "blue-l",
+					"color": "#1B95D2",
+					"name": "Blue Light"
+				}
+				,
+				{
+					"slug": "blue-d",
+					"color": "#00476B",
+					"name": "Blue Dark"
+				}
+			]
+		},
+		"spacing": {
+			"margin": true,
+			"padding": true
+		},
+		"typography": {
+			"fontSizes": [
+				{
+					"name": "Small",
+					"fluid": {
+						"min": "0.875rem",
+						"max": "1rem"
+					},
+					"size": "1rem",
+					"slug": "small"
+				},
+				{
+					"name": "Medium",
+					"fluid": {
+						"min": "1rem",
+						"max": "1.125rem"
+					},
+					"size": "1rem",
+					"slug": "medium"
+				},
+				{
+					"name": "Large",
+					"fluid": {
+						"min": "1.75rem",
+						"max": "1.875rem"
+					},
+					"size": "1.875rem",
+					"slug": "large"
+				},
+				{
+					"name": "Extra Large",
+					"fluid": {
+						"min": "1.875rem",
+						"max": "2.25rem"
+					},
+					"size": "2.25rem",
+					"slug": "x-large"
+				}
+			]
+		}
+    }
+  }

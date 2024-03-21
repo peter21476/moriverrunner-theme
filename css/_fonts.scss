@@ -1,0 +1,78 @@
+@import 'https://use.typekit.net/ger5idp.css';
+
+h1, h2, h3, h4, h5, h6 {
+
+    font-family: 'railroad-gothic-atf', sans-serif;
+    font-weight: 400;
+
+    a {
+
+        font-family: 'railroad-gothic-atf', sans-serif;
+        font-weight: 400;
+
+    }
+
+}
+
+p, li, a, span {
+
+    font-family: 'freight-text-pro', serif;
+    font-weight: 400;
+}
+
+p {
+
+    font-size: rem(18);
+    line-height: rem(22);
+
+}
+
+h1 {
+
+    font-size: rem(72);
+    line-height: 1.2;
+
+}
+
+.mo-runner-post {
+
+    h4 {
+            
+            font-size: rem(20);
+            line-height: 1.2;
+            margin-top: rem(22);
+            margin-bottom: rem(16);
+            font-family: "interstate", sans-serif !important;
+            font-weight: 700;
+    }
+
+    p {
+
+        line-height: rem(24);
+
+    }
+
+    a {
+        color: $blue-d;
+        text-decoration: none;
+        font-weight: 700;
+
+        &:hover {
+            color: $blue-l;
+        }
+    }
+
+}
+
+body.contact {
+
+    h3 {
+
+        font-family: "interstate", sans-serif !important;
+        font-size: rem(24);
+        text-transform: uppercase;
+
+
+    }
+
+}

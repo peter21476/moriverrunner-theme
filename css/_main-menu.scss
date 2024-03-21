@@ -1,0 +1,137 @@
+.top-menu {
+
+    margin-bottom: 0;
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+    padding-left: 0 !important;
+
+    @include breakpoint(medium) {
+        position: absolute;
+        background: $blue-d;
+        left: rem(-1000);
+        top: rem(100);
+        flex-direction: column;
+        padding: rem(20);
+        min-width: 42%;
+        transition: left 0.5s ease-in-out;
+        gap: 0;
+
+        &.active {
+            left: 0;
+        }
+    }
+
+        li {
+
+            list-style-type: none;
+            margin-bottom: rem(10);
+            
+            @include breakpoint(medium) {
+                margin-bottom: rem(20);
+                margin-left: rem(20);
+            }
+    
+            a {
+    
+                font-family: 'railroad-gothic-atf', sans-serif;
+                font-weight: 400;
+                color: $black;
+                font-size: rem(24);
+                text-decoration: none;
+
+                @include breakpoint(medium) {
+                    color: $white;
+                }
+    
+            }
+
+            &.menu-item-has-children {
+
+                position: relative;
+                padding-right: rem(30);
+
+                &:after {
+                    content: '\f107';
+                    font-family: 'Font Awesome 5 Free';
+                    font-weight: 900;
+                    font-size: rem(24);
+                    color: $black;
+                    margin-left: rem(10);
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    transition: transform 0.5s;
+
+                    @include breakpoint(medium) {
+                        color: $white;
+                    }
+
+                }
+
+                &:hover {
+
+                    &:after {
+                        transform: rotate(180deg);
+                    }
+
+                    .sub-menu {
+                        height: auto;
+                        visibility: visible;
+                        left: 0;
+                        opacity: 1;
+                        transition: opacity 0.5s ease-in-out, left 0.5s ease-in-out;
+                    }
+
+                }
+
+            }
+
+            .sub-menu {
+                visibility: hidden;
+                height: 0;
+                overflow: hidden;
+                position: absolute;
+                left: rem(-10);
+                transition: opacity 0.5s ease-in-out, left 0.5s ease-in-out;
+                background: $cream;
+                padding: rem(20) !important;
+                border-top: 5px solid $blue-d;
+                opacity: 0;
+
+                @include breakpoint(medium) {
+                    position: relative;
+                    left: 0;
+                    height: auto;
+                    visibility: visible;
+                    opacity: 1;
+                    background: $blue-d;
+                }
+
+            }
+    
+        }
+}
+
+.morunner-mobile-trigger {
+
+    display: none;
+    cursor: pointer;
+    .fa-solid {
+        font-size: rem(40);
+        color: $blue-d;
+    }
+
+    @include breakpoint(medium) {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: rem(20);
+        font-size: rem(24);
+        color: $black;
+        background: $cream;
+        z-index: 1000;
+    }
+
+}
